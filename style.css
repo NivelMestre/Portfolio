@@ -1,0 +1,322 @@
+/*
+    CORES DO DESIGN
+        amarelo: #f7cd5a
+        cinza: #5e5a63
+        branco: #ffffff
+*/
+
+@font-face {
+    font-family: 'League-Spartan';
+    src: url("League_Spartan/LeagueSpartan-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url("avenir-next/folder/AvenirNextLTPro-Regular.otf")
+}
+
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+/*HEADER*/
+
+#header, #ul-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+}
+
+#logo {
+    width: 55px;
+    margin-right: 150px;
+}
+
+.nav-link active, .nav-link {
+    color: #5e5a63;
+    font-family: 'Avenir';
+}
+
+/*PARTE 1*/
+
+#pt1 {
+    display: flex;
+    margin-top: 60px;
+}
+
+#div-txt {
+    width: 55%;
+}
+
+#h1-pt1 {
+    font-family: 'League-Spartan';
+    color: #5e5a63;
+    font-size: 620%;
+    font-weight: 650;
+    line-height: 80%;
+    margin-left: 150px;
+    margin-top: 27%;
+    letter-spacing: -4px;
+    word-spacing: -8px;
+}
+
+#p-pt1 {
+    font-family: 'Avenir';
+    font-size: 130%;
+    color: #5e5a63;
+    margin-left: 155px;
+    letter-spacing: 2px;
+}
+
+#div-img {
+    padding-right: 30px;
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+
+#img-paisagem {
+    width: 85%;
+}
+
+/*PARTE 2*/
+
+#pt2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #5e5a63;
+}
+
+#h1-pt2 {
+    color: white;
+    margin-bottom: 60px;
+    font-family: 'League-Spartan';
+    font-size: 450%;
+}
+
+.cartoes {
+    width: 750px;
+    height: 130px;
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icones {
+    width: 85px;
+    margin-right: 35px;
+}
+
+.porcentagens {
+    width: 550px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #5e5a633f;
+}
+
+.porcentagem {
+    width: 550px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #f7cd5a;
+    display: flex;
+    justify-content: center;
+    font-family: 'Avenir';
+}
+
+#porcentagem-1 {
+    width: 495px;
+    border-radius: 15px 0 0 15px;
+}
+
+#porcentagem-2 {
+    width: 385px;
+    border-radius: 15px 0 0 15px;
+}
+
+#porcentagem-3 {
+    width: 467px;
+    border-radius: 15px 0 0 15px;
+}
+
+/*PARTE 3*/
+
+#pt3 {
+    width: 100%;
+    height: 700px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#h1-pt3 {
+    color: #5e5a63;
+    margin-bottom: 60px;
+    font-family: 'League-Spartan';
+    font-size: 450%;
+}
+
+#cartoes-pt3 {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+ 
+/*Cartões*/
+
+.card-img-top {
+    border-radius: 15px 15px 0 0;
+}
+
+.img-pt3 {
+    border-radius: 15px 15px 0 0;
+}
+
+#txt1-pt3, #txt2-pt3, #txt3-pt3 {
+    font-family: 'League-Spartan';
+    font-size: 30px;
+    color: #5e5a63;
+}
+
+#p1-pt3, #p2-pt3, #p3-pt3 {
+    font-family: 'Avenir';
+    color: #5e5a63;
+}
+
+#btn-card1, #btn-card2, #btn-card3 {
+    background-color: #f7cd5a;
+    border-color: #caa848;
+}
+
+/*PARTE 4*/
+
+#pt4 {
+    width: 100%;
+    height: 400px;
+    background-color: #5e5a63;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#h1-pt4 {
+    color: white;
+    font-family: 'League-Spartan';
+    font-size: 450%;
+}
+
+#p-pt4 {
+    font-family: 'Avenir';
+    font-size: 130%;
+    color: white;
+}
+
+/*PARTE 5*/
+
+#pt5 {
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pt5-2 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+#img-gh {
+    width: 200px;
+    display: flex;
+}
+
+#card-pt5 {
+    border-radius: 15px;
+    color: #5e5a63;
+}
+
+#h5-pt5 {
+    font-family: 'League-Spartan';
+    font-size: 30px;
+}
+
+#p-pt5 {
+    font-family: 'Avenir';
+}
+
+#a-pt5 {
+    background-color: #f7cd5a;
+    border-color: #caa848;
+}
+
+/*FOOTER*/
+
+#footer {
+    width: 100%;
+    height: 300px;
+    background-color: #5e5a63;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#logo-footer {
+    width: 200px;
+}
+
+#github-footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.p-footer {
+    font-family: 'Avenir';
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+
+#gh-footer {
+    width: 30px;
+    transition: 0.2s;
+}
+
+#gh-footer:hover {
+    width: 35px;
+    transition: 0.2s;
+}
+
+#rs-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#icones-footer {
+    display: flex;
+}
+
+.icone-footer {
+    width: 30px;
+    margin-right: 15px;
+    transition: 0.2s;
+}
+
+.icone-footer:hover {
+    width: 35px;
+    transition: 0.2s;
+}
